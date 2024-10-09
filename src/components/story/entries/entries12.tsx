@@ -7,7 +7,8 @@ export const Entry12 = () => {
 
     return (
         <div id="12">
-            <p className="storyEntry">Avec une moue boudeuse, la fée croise les bras et lève les yeux au ciel. “D’accord, d’accord. J’ai vraiment besoin de ton aide, alors autant te dire les vrais enjeux. La relique contient une partie de l’essence divine de Vyvian, la sainte patronne des fées. Sans le pouvoir de cette relique, nous sommes coincés sur le plan matériel, sans aucun moyen de rentrer chez nous.”</p>
+            <p className="storyEntry">Avec une moue boudeuse, la fée croise les bras et lève les yeux au ciel. <br />
+            “D’accord, d’accord. J’ai vraiment besoin de ton aide, alors autant te dire les vrais enjeux. La relique contient une partie de l’essence divine de Vyvian, la sainte patronne des fées. Sans le pouvoir de cette relique, nous sommes coincés sur le plan matériel, sans aucun moyen de rentrer chez nous.”</p>
             <button onClick={() => {
                 setStoryIndex(16)
             }}>Accepter d'aider la fée</button>

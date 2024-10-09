@@ -72,7 +72,7 @@ export const Entry0 = () => {
                 <option value='human warrior'>Human Warrior</option>
                 <option value='elf mage'>Elf Mage</option>
                 <option value='halfling rogue'>Halfling Rogue</option>
-            </select>
+            </select> <br />
             <button onClick={() => {
                 setStoryIndex(1)
             }}>Start your adventure!</button>
