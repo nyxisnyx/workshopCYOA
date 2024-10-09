@@ -44,7 +44,7 @@ button {
   cursor: pointer;
   display: inline-flex;
   fill: #000;
-  height: 48px;
+  min-height: 48px;
   justify-content: center;
   line-height: 24px;
   min-width: 140px;
