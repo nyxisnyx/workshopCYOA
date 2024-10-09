@@ -11,7 +11,7 @@ export const Entry16 = () => {
             </p>
             <p className="finPrologue">Félicitations ! Tu as atteint la fin du prologue. Pour l'instant, le reste de l'histoire n'est pas encore disponible, mais tu peux cliquer sur le bouton ci-dessous pour retourner à la sélection du personnage.</p>
             <button onClick={() => {
-                setStoryIndex(2)
+                setStoryIndex(0)
             }}>Recommencer</button>
         </div>
     )
