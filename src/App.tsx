@@ -9,8 +9,8 @@ function App() {
     <>
       <MyProvider>
         <div id="gridProvider">
-          <Story />
-          <CharacterSheet />
+          <div id="storyContainer"><Story /></div>
+          <div id="characterSheetContainer"><CharacterSheet /></div>
         </div>
       </MyProvider>
     </>

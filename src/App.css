@@ -5,6 +5,81 @@
   text-align: center;
 }
 
+body {
+  height:95dvh;
+}
+
+h1 {
+  text-align:center;
+}
+
 #gridProvider {
   display:grid;
+  gap:25px;
+  height:70dvh;
+}
+
+#storyContainer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border:1px solid black;
+  padding:10%;
+}
+
+#characterSheetContainer {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  border: 1px solid black;
+  padding:10%;
+}
+
+/* Button styling */
+button {
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  margin: 1em;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:focus {
+  color: #171e29;
+}
+
+button:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+button:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  button {
+    min-width: 170px;
+  }
+}
+
+#credits {
+  text-align:center;
 }
